@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    // Environment
+    "module": "nodenext",
+    "target": "esnext",
+    "moduleResolution": "nodenext",
+
+    // Enable Node.js types
+    "types": ["node"],
+
+    // Other outputs
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Type checking
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Style & safety
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  },
+  "include": ["bin", "src"]
+}
